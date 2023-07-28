@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hungergamesapp',
+    'HungerGamesFastFood',
 ]
 
 MIDDLEWARE = [
@@ -77,14 +78,13 @@ WSGI_APPLICATION = 'HungerGamesFastFood.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Hunger Games Fast Food',
+        'NAME': 'hungergamesfastfood',
         'USER': 'postgres',
-        'PASSWORD': '',
+        'PASSWORD': 'Christian2002',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
-
 
 
 # Password validation
